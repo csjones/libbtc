@@ -31,14 +31,6 @@ module libbtc {
         header "include/btc/tool.h"
         header "include/btc/wallet.h"
 
-        header "src/logdb/include/logdb/logdb.h"
-        header "src/logdb/include/logdb/logdb_base.h"
-        header "src/logdb/include/logdb/logdb_core.h"
-        header "src/logdb/include/logdb/logdb_memdb_llist.h"
-        header "src/logdb/include/logdb/logdb_memdb_rbtree.h"
-        header "src/logdb/include/logdb/logdb_rec.h"
-        header "src/logdb/include/logdb/red_black_tree.h"
-
         link "btc"
 
         export *
