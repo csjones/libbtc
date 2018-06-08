@@ -1,0 +1,37 @@
+module libbtc {
+
+        header "include/btc/bip32.h"
+        header "include/btc/buffer.h"
+        header "include/btc/ecc.h"
+        header "include/btc/headersdb_file.h"
+        header "include/btc/portable_endian.h"
+        header "include/btc/segwit_addr.h"
+        header "include/btc/tx.h"
+        header "include/btc/block.h"
+        header "include/btc/chainparams.h"
+        header "include/btc/ecc_key.h"
+        header "include/btc/memory.h"
+        header "include/btc/protocol.h"
+        header "include/btc/serialize.h"
+        header "include/btc/utils.h"
+        header "include/btc/aes256_cbc.h"
+        header "include/btc/blockchain.h"
+        header "include/btc/cstr.h"
+        header "include/btc/hash.h"
+        header "include/btc/net.h"
+        header "include/btc/random.h"
+        header "include/btc/sha2.h"
+        header "include/btc/vector.h"
+        header "include/btc/base58.h"
+        header "include/btc/btc.h"
+        header "include/btc/ctaes.h"
+        header "include/btc/headersdb.h"
+        header "include/btc/netspv.h"
+        header "include/btc/script.h"
+        header "include/btc/tool.h"
+        header "include/btc/wallet.h"
+
+        link "btc"
+
+        export *
+}
